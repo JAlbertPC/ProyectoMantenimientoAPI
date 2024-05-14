@@ -41,6 +41,8 @@ export default function Home() {
         />
       </div>
 
+      <p>El valor es: {contador}</p>
+
       <button onClick={() => contador++}>Incrementar</button>
 
       {/* <div className={styles.grid}>
