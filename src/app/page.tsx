@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  let contador = 0;
+
   return (
     <main className={styles.main}>
       {/* <div className={styles.description}>
@@ -38,6 +40,8 @@ export default function Home() {
           priority
         />
       </div>
+
+      <button onClick={() => contador++}>Incrementar</button>
 
       {/* <div className={styles.grid}>
         <a
